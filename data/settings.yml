@@ -1,0 +1,48 @@
+token: "TOKEN"
+
+roles:
+  muted: "ROLE_ID"
+
+#######################
+#        Staff        #
+#######################
+
+ban:
+  title: "🚫 Punishment System"
+  description: "The user has been successfully __banned__!\n\nMember: {user} ({user_id})\nStaff: {staff_username} ({staff_id})\nReason: **{reason}**"
+  footer:
+    text: "Hex Studios"
+  color: "NotQuiteBlack"
+tempban:
+  title: "🚫 Punishment System"
+  description: "The user has been successfully __temporarily banned__!\n\nMember: {user} ({user_id})\nStaff: {staff_username} ({staff_id})\nReason: **{reason}**\nDuration: **{duration}**"
+  color: "NotQuiteBlack"
+mute:
+  title: "🚫 Punishment System"
+  description: "The user has been successfully __muted__!\n\nMember: {user} ({user_id})\nStaff: {staff_username} ({staff_id})\nReason: **{reason}**"
+  color: "NotQuiteBlack"
+kick: 
+  title: "🚫 Punishment System"
+  description: "The user has been successfully __kicked__!\n\nMember: {user} ({user_id})\nStaff: {staff_username} ({staff_id})\nReason: **{reason}**"
+  color: "NotQuiteBlack"
+
+#######################
+#        Other        #
+#######################
+
+no_permission:
+  enabled: true
+  title: "⚠️ You don't have permission to execute this command."
+  description: "You do not have the required permissions to execute this command."
+  color: "Red"
+  footer:
+    enabled: true
+  embed_timeout: 10 # seconds
+error:
+  enabled: true
+  title: "⚠️ There has been error while executing this interaction."
+  description: "```{error}```"
+  color: "Red"
+  footer:
+    enabled: true
+  embed_timeout: 5 # seconds
